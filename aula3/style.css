@@ -1,0 +1,50 @@
+div {
+    background-color: rgb(53, 132, 132);
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+
+#atras {
+    background-color: rgb(14, 93, 85);
+    margin: 20px;
+}
+#relative {
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+}
+
+#absolute {
+    position: absolute;
+    left: 50px;
+}
+
+.scroll {
+    border: solid;
+    color: black;
+    width: auto;
+    background-color: white;
+    height: 200px;
+    overflow: scroll;
+}
+
+#fixed {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.block {
+    border: solid;
+    color: rgb(12, 9, 9);
+    background-color: white;
+    width: auto;
+    height: 200px;
+}
+
+#sticky {
+    margin: 20px;
+    position: sticky;
+    top: 20px;
+}

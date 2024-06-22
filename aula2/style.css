@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(255, 205, 212);
+}
+
+p {
+color: rgb(201, 84, 104);
+}
+
+div {
+    background-color: rgb(255, 125, 125);
+    background-image: url(https://cdn.iconscout.com/icon/premium/png-256-thumb/strawberry-9147840-7445427.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    background-size: 400px;
+}
+h1 {
+    color: rgb(255, 142, 142);
+}
+
+
