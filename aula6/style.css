@@ -1,0 +1,74 @@
+#titulo {
+    display: flex;
+    background-color: rgb(185, 185, 255);
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 5px 15px
+}
+
+#titulo::before {
+    content: "";
+    height: 50px;
+    width: 5px;
+    border-radius: 10px;
+    background-color: rgb(23, 42, 88);
+    position: absolute;
+} 
+
+.container {
+    border: solid grey;
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+.item {
+    text-align: center;
+    width: 50px; 
+    border: solid 0.1px grey;
+}
+
+#wrap {
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+#align {
+    align-items: center;
+    flex-wrap: wrap;
+    width: 300px;
+    align-content: flex-start;
+    /* align-content: flex-end; */
+    /* align-content: center; */
+    /* align-content: space-around; */
+    /* align-content: space-between; */
+    /* align-content: space-evenly; */
+}
+
+.sizing {
+    flex-basis: 20%;
+    border: solid 0.1px grey;
+    text-align: center;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+}
+
+.sizing:nth-child(2) {
+    /* flex-grow: 2; */
+    /* flex-shrink: 0.5;  */
+}
+
+.flex {
+    border: solid 0.1px grey;
+    text-align: center;
+    /* flex: initial;  */
+    /* flex: auto; */
+
+}
