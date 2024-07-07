@@ -1,0 +1,31 @@
+.container {
+    display: grid;
+    /* display: inline-grid; */
+    gap: 2px;
+}
+
+.itens {
+    border: solid 1px purple;
+}
+
+.container-col {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: 100px 200px 300px; */
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.itens-col {
+    border: solid 1px purple;
+    
+}
+
+.container-row {
+    display: grid;
+    grid-template-rows: 200px 50px 30px;
+}
+
+.itens-row {
+    border: solid 1px purple;
+}
+

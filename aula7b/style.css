@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    
+}
+
+.container {
+    display: grid;
+    gap: 2px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    height: 100vh;
+}
+
+.itens {
+    border: solid 1px purple
+}
+
+header {
+    grid-column: 1/5;
+    grid-row: 1/2;
+
+}
+
+main {
+    grid-column: 1/4;
+    grid-row: 2/4;
+}
+
+section {
+    grid-column: 4/5;
+    grid-row: 2/4;
+
+}
+
+footer {
+    grid-column: 1/5;
+    grid-row: 4/5;
+}
